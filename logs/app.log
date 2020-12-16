@@ -1,0 +1,26 @@
+2020-12-16 10:51:40,780 DEBUG c.m.PersonsDemo [main] case 1
+2020-12-16 10:51:47,313 DEBUG c.m.PersonsDemo [main] inserted successfully : 1
+2020-12-16 10:51:47,349 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ra, surname=sa]]
+2020-12-16 10:53:22,939 DEBUG c.m.PersonsDemo [main] case 1
+2020-12-16 10:53:29,304 DEBUG c.m.PersonsDemo [main] inserted successfully : 1
+2020-12-16 10:53:29,340 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ramesh, surname=sagar]]
+2020-12-16 10:53:32,575 DEBUG c.m.PersonsDemo [main] case 1
+2020-12-16 10:53:37,111 DEBUG c.m.PersonsDemo [main] inserted successfully : 1
+2020-12-16 10:53:37,113 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ramesh, surname=sagar], Person [pid=2, firstname=dd, surname=dd]]
+2020-12-16 10:53:43,388 DEBUG c.m.PersonsDemo [main] case 2:
+2020-12-16 10:53:43,389 DEBUG c.m.PersonsDemo [main] before editing person list::
+2020-12-16 10:53:43,393 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ramesh, surname=sagar], Person [pid=2, firstname=dd, surname=dd]]
+2020-12-16 10:53:50,345 DEBUG c.m.PersonsDemo [main] An existing person was updated successfully!
+2020-12-16 10:53:50,345 DEBUG c.m.PersonsDemo [main] after editing person list::
+2020-12-16 10:53:50,347 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ramesh, surname=sagar], Person [pid=2, firstname=prakesh, surname=sagar]]
+2020-12-16 10:53:55,492 DEBUG c.m.PersonsDemo [main] case 4::
+2020-12-16 10:53:55,494 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ramesh, surname=sagar], Person [pid=2, firstname=prakesh, surname=sagar]]
+2020-12-16 10:53:55,495 DEBUG c.m.PersonsDemo [main] persons count=2
+2020-12-16 10:54:16,928 DEBUG c.m.PersonsDemo [main] case 3:
+2020-12-16 10:54:16,929 DEBUG c.m.PersonsDemo [main] before deleting person list::
+2020-12-16 10:54:16,930 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ramesh, surname=sagar], Person [pid=2, firstname=prakesh, surname=sagar]]
+2020-12-16 10:54:47,474 DEBUG c.m.PersonsDemo [main] An existing person was deleted successfully!
+2020-12-16 10:54:47,474 DEBUG c.m.PersonsDemo [main] after deleting person list::
+2020-12-16 10:54:47,476 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ramesh, surname=sagar]]
+2020-12-16 10:55:06,843 DEBUG c.m.PersonsDemo [main] case 5:
+2020-12-16 10:55:06,847 DEBUG c.m.PersonsDemo [main] list of persons data=[Person [pid=1, firstname=ramesh, surname=sagar]]

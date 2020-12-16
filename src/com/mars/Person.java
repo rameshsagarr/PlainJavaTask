@@ -2,28 +2,40 @@ package com.mars;
 
 public class Person {
 	
-	private int pid;
-	public int getpid() {
+	public int getPid() {
 		return pid;
 	}
-	public void setpid(int pid) {
+	public void setPid(int pid) {
 		this.pid = pid;
+	}
+	public String getFirstname() {
+		return firstname;
+	}
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+	public String getSurname() {
+		return surname;
+	}
+	public void setSurname(String surname) {
+		this.surname = surname;
 	}
 	@Override
 	public String toString() {
-		return "Student [pid=" + pid + ", pname=" + pname + "]";
+		return "Person [pid=" + pid + ", firstname=" + firstname + ", surname=" + surname + "]";
 	}
-	public String getpname() {
-		return pname;
-	}
-	public Person(int pid, String pname) {
+	public Person(int pid, String firstname, String surname) {
 		super();
 		this.pid = pid;
-		this.pname = pname;
+		this.firstname = firstname;
+		this.surname = surname;
 	}
-	public void setpname(String pname) {
-		this.pname = pname;
+	public Person() {
+		
+		
 	}
-	private String pname;
+	private int pid;
+	private String firstname;
+	private String surname;
 
 }
